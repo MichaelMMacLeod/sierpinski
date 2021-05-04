@@ -85,3 +85,13 @@ get the following:
 The idea for this came from a video called "Keynote: Explorations in Laws
 of Form — Louis H Kauffman" at 15:33. I found this video at:
 https://vimeo.com/357180973
+
+# Running
+
+Depends on [ghc](https://www.haskell.org/ghc/)
+
+```
+# modify the size variable in sierpiński.hs if you like
+ghc sierpiński.hs -o sierpiński
+./sierpiński
+```
